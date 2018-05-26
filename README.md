@@ -1,12 +1,15 @@
 # LogicPatterns
-> print 
-```
+> Print 
+
+
+```java   
+
+/*
 Java
  ava
   va
    a
-```
-```   
+ */
 import java.util.*;
 public class MyClass {
     public static void main(String args[]) {
@@ -29,5 +32,12 @@ public class MyClass {
         }
     }
 }
+
+```
+
+> guess Output `int i=010; System.out.print(i);`
+
+```java
+output : 8//because when you put 0 infront of number it will convert to octal number
 
 ```
