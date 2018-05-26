@@ -1,7 +1,6 @@
 # LogicPatterns
-> Print 
 
-
+####Print 
 ```java   
 
 /*
@@ -35,9 +34,20 @@ public class MyClass {
 
 ```
 
-> guess Output `int i=010; System.out.print(i);`
+#### guess Output 
+> `int i=010; System.out.print(i);`
 
 ```java
 output : 8//because when you put 0 infront of number it will convert to octal number
+//i=100 then print 64 
+//i=07 then print only 7
+
+```
+
+> `int i=0x10 ; System.out.print(i);`
+```java
+output : 16;
+//i=0x9 output is 9;
+//i=0xa output is 10;
 
 ```
